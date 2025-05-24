@@ -38,7 +38,6 @@ public class ExceptionControllerAdvice {
                 .status(HttpStatus.BAD_REQUEST.value())
                 .message(ex.getMessage())
                 .build();
-        
     }
 
 }
